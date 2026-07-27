@@ -1,0 +1,122 @@
+    a, link {
+        color: unset;
+        text-decoration: unset;
+    }
+    *, html, ::file-selector-button {
+        border-color: #ff0000;
+        border-width: 0.1rem;
+        font-family: Arial, sans-serif;
+        font-size: 1.2rem;
+        color: #000000;
+        overflow: auto;
+        box-sizing: border-box;
+        border-style: none;
+        background: unset;
+        margin: 0px;
+        padding: 0px;
+        min-width: 10px;
+        min-height: 10px;
+        outline: none;
+    }
+    h1 {
+        font-size: 4.8rem;
+    }
+    h2 {
+        font-size: 3.6rem;
+    }
+    h3 {
+        font-size: 2.4rem
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+        font-size: 0.6rem;
+    }
+    h6 {
+        font-size: 0.3rem;
+    }
+    dialog {
+        position: fixed;
+    }
+    select:not([multiple]) {
+        cursor: pointer;
+    }
+    input, a[button], button, textarea, select:not([multiple]), ::file-selector-button {
+        border-style: solid;
+        border-radius: 0.3rem;
+        padding-inline: 0.1rem;
+        margin: 0.1rem;
+    }
+    input:hover, ::file-selector-button:hover, button:hover, select:not([multiple]):hover {
+        border-color: #0055ff;
+        color: #0055ff;
+    }
+    input:not(:focus):hover {
+        background-color: #ff000033;
+        cursor: pointer;
+    }
+    input:focus, textarea:focus {
+        border-width: 0.2rem;
+        background-color: #ffff0033;
+        color: #ff0000;
+        border-color: #000000;
+    }
+    a:not([button]), [link] {
+        text-decoration: underline;
+        color: #0000ff;
+    }
+    a:not([button]):hover, [link]:hover {
+        text-decoration: none;
+        color: #ff00ff;
+    }
+    a[button], button, ::file-selector-button, select:not([multiple]) {
+        background: #ff005533;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    table * {
+        border-color: #0000ff;
+        border-width: 0.07rem;
+    }
+    th {
+        border-style: solid;
+        text-align: center;
+        min-width: 1rem;
+    }
+    option:hover {
+        background-color: #fcb1e355;
+    }
+    option:checked {
+        background-color: #fcb1e3aa;
+        border-style: solid;
+        border-width: 0.07rem;
+        color: #000055;
+    }
+    option:checked:hover {
+        background-color: #fcb1e3ee;
+    }
+    optgroup * {
+        padding-inline-start: 2rem;
+    }
+    ::selection {
+        background-color: #ffff00;
+        color: #ff0000;
+    }
+    [content]::before {
+        content: attr(content)
+    }
+    [disabled] {
+        color: #555555;
+        background: unset;
+    }
+    small {
+        font-size: 0.01rem;
+    }
+    big {
+        font-size: 35rem;
+    }
+    [bigest] {
+        font-size: 1000rem;
+    }
